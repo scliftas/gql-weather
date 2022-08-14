@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "CommonJs",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "typeRoots": ["node_modules/@types", "src/@types"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+  },
+  "files": ["src/@types/graphql.d.ts"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
